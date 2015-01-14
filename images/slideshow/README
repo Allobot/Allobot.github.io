@@ -1,0 +1,11 @@
+The website slideshow will cycle through all pairs of items as follows:
+
+1.png & 1.txt
+2.png & 2.txt
+3.png & 3.txt
+.
+.
+.
+
+
+contents of .txt should be either HTML tags such as <h2+> and <p> that can go into a div or just plain text.

@@ -1,0 +1,60 @@
+/* set the page's background color */
+body{
+	background-color: #FCFCFC;
+}
+
+/* makes everything centered */
+.main{
+	max-width: 700px;
+	margin-left: calc(50% - 350px);
+	position: absolute;
+}
+
+/* header for page */
+.nav-bar{
+	height: 70px;
+}
+.logo{}
+.nav-bar a{
+	color: #333333;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	font-family: Sans-serif;
+	padding: 0 5px 0 5px;
+}
+.nav-bar a:hover{
+	color: #737373;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	font-family: Sans-serif;
+}
+.right-border {
+	border-right: 1px solid rgba(51,51,51,.3);
+}
+.caboose {
+	border-right: none;
+	border-top: none;
+}
+
+/* the subsections */
+.content{}
+.content-section{
+	border-bottom: 1px solid rgba(51,51,51,.3);
+}
+.content-section h1{
+	color: #333333;
+	font-size: 20px;
+	font-family: Sans-serif;
+}
+.content-section p{
+	color: #737373;
+	font-size: 15px;
+	font-family: Sans-serif;
+}
+
+
+/* the footer information */
+.footer{}
+.footer p{}
