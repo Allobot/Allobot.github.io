@@ -1,27 +1,57 @@
 /* set the page's background color */
-body{
+html,body{
 	background-color: #FCFCFC;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	height: 100%
 }
+
+/* the logo color: 464a77 */
 
 /* makes everything centered */
 .main{
 	max-width: 700px;
-	margin-left: calc(50% - 350px);
-	position: absolute;
+	min-width: 700px;
+	padding-left: calc(50% - 350px);
+	padding-right: calc(50% - 350px);
+	margin-top: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.container{
+	min-height: 100%;
+	position: relative;
 }
 
 /* header for page */
 .nav-bar{
 	height: 70px;
+	padding-top: 10px;
+	margin-top: 0px;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
 }
-.logo{}
+.logo img{
+	height: 50px;
+	width: auto;
+	float: left;
+	margin-right: 20px; 
+}
 .nav-bar a{
-	color: #333333;
+	color: #464a77;
+	/*color: #333333;*/
 	font-size: 20px;
 	text-align: center;
 	text-decoration: none;
 	font-family: Sans-serif;
 	padding: 0 5px 0 5px;
+	margin-top: 25px;
+	
+	position: relative;
+	display: block;
+	float: right;
 }
 .nav-bar a:hover{
 	color: #737373;
@@ -33,28 +63,61 @@ body{
 .right-border {
 	border-right: 1px solid rgba(51,51,51,.3);
 }
+.bottom-border {
+	border-bottom: 1px solid rgba(51,51,51,.3);
+}
 .caboose {
 	border-right: none;
 	border-top: none;
 }
-
-/* the subsections */
-.content{}
-.content-section{
-	border-bottom: 1px solid rgba(51,51,51,.3);
+.color1{
+	background-color: #F5F6FA;
 }
+.color2{
+	background-color: #FCFCFC;
+}
+
+.content {
+	padding-bottom: 70px;
+}
+/* the subsections */
 .content-section h1{
-	color: #333333;
+	color: #464a77;
+	/*color: #333333;*/
 	font-size: 20px;
 	font-family: Sans-serif;
+	margin: 0 0 5px 0;
 }
 .content-section p{
 	color: #737373;
 	font-size: 15px;
 	font-family: Sans-serif;
 }
-
+.content-section img{
+	height: 202px;
+	width: 186px;	
+}
+.picture{
+	height: 230px;
+	width: 200px;
+	display: inline-block;
+}
+.content-caboose {
+	padding-bottom: 70px;
+	border-bottom: 1px solid rgba(51,51,51,.3);
+}
 
 /* the footer information */
-.footer{}
-.footer p{}
+.footer{
+	text-align: center;
+	height: 70px;
+	bottom: 0;
+	position: absolute;
+	border-top: 1px solid rgba(51,51,51,.3);
+}
+.footer p{
+	color: #737373;
+	font-size: 15px;
+	font-family: Sans-serif;
+	margin: 0 0 0 0;
+}
