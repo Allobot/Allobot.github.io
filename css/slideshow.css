@@ -8,8 +8,9 @@
 
 /* text below slideshow */
 .slideshow-controls {
-	margin-left: 290px;
-	margin-bottom: 40px;
+	max-width: 100px;
+	margin: auto;
+	height: 25px;
 }
 .selected {
 	background: rgba(0,0,0,0) url('../images/slideshow/dark-dot.png')no-repeat;
@@ -29,12 +30,13 @@
 	float: left;
 }
 
+
 /* images within slideshow */
 .slideshow {
 	position: relative;
+	max-width: 400px;
 	height: 200px;
-	width: 400px;
-	margin: 0 0 10px 150px;
+	margin: auto;
 }
 .slideshow-img {
 	position: absolute;
@@ -48,7 +50,7 @@
 }
 .slideshow-text{
 	position: absolute;
-	left: 200px;
+	left: 50%;
 	width: 200px;
 	-webkit-transition: opacity 1s ease-in-out;
 	-moz-transition: opacity 1s ease-in-out;
@@ -56,6 +58,20 @@
 	transition: opacity 1s ease-in-out;
 	opacity: 0;
 }
+
+@media (max-width: 520px){
+	.slideshow {
+		max-width: 200px;
+		height: 350px;	
+		display: block;
+	}	
+	.slideshow-text {
+		left: auto;
+		top: 60%;
+		float: left;	
+	}
+}
+
 /*
 	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	filter: alpha(opacity=0);
