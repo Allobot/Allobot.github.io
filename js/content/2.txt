@@ -1,0 +1,10 @@
+<h1> Meet the Team </h1>
+<div class="picture">
+<p> CEO - Sam Herbert </p>
+<img href="./js/content/sam_herbert.png" alt="">
+</div>
+
+<div class="picture">
+<p> Engineer - Thomas Ives </p>
+<img href="./js/content/thomas_ives.png" alt="">
+</div>
