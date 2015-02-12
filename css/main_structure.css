@@ -6,19 +6,26 @@
 
 /* set the page's background color */
 html,body{
-	background-color: #FCFCFC;
+    background-color: #ffffff;
 	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
 	height: 100%
 }
 
+/* background-color: #FCFCFC; */
 /* the logo color: 464a77 */
 
 /* makes everything centered */
 .main{
 	max-width: 700px;
 	margin: auto;
+    padding: 10px 10px 10px 10px;
+    border-bottom: 1px solid rgba(51,51,51,.3);
 }
+/*
+    border-right: 1px solid rgba(51,51,51,.3);
+    border-left: 1px solid rgba(51,51,51,.3);
+*/
 
 .container{
 	min-height: 100%;
@@ -69,15 +76,28 @@ html,body{
 .right-border {
 	border-right: 1px solid rgba(51,51,51,.3);
 }
+.left-border {
+    border-left: 1px solid rgba(51,51,51,.3);
+}
+.right-border {
+    border-right: 1px solid rgba(51,51,51,.3);
+}
+.no-bottom-border{
+    border-bottom: none;
+}
 .color1{
-	background-color: #F5F6FA;
+    background-color: #DEDEDE;
 }
+/* background-color: #F5F6FA;*/
 .color2{
-	background-color: #FCFCFC;
+	background-color: #ffffff;
 }
+/*
+	background-color: #FAF7FF;
+	background-color: #FCFCFC;*/
 
 .content {
-	padding-bottom: 70px;
+	/*padding-bottom: 70px;*/
 }
 /* the subsections */
 .content-section h1{
@@ -88,10 +108,11 @@ html,body{
 	margin: 0 0 5px 0;
 }
 .content-section p{
-	color: #737373;
+	color: #4D4D4D;
 	font-size: 15px;
 	font-family: Sans-serif;
 }
+/*color: #737373;*/
 .content-section img{
 	height: 202px;
 	width: 186px;	
